@@ -331,7 +331,7 @@ form input, select, textarea{
 
 #mensaje{
   min-height: 100px;
-  max-height: 200px;
+  max-height: 100px;
 }
 
 #enviar{
@@ -346,17 +346,19 @@ form input, select, textarea{
 
 
 footer{
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(34,34,34);
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: 60px;
 }
 
 .footer-seccion{
-  margin: 60px 0;
+  margin: 50px 0 0 0;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 1000px;
+  width: 100%;
 }
 
 .footer-seccion div ul{
@@ -370,7 +372,7 @@ footer{
 }
 
 .menubajo{
-  color:white;
+  color:rgb(224, 222, 222);
   font-size: 15px;
 }
 
@@ -381,20 +383,18 @@ footer{
   justify-content: center;
 }
 .medio-nombre{
-  color: white;
+  color: rgb(224, 222, 222);
   font-size: 30px;
 }
 
-.medio-desarrollador{
-  margin-top: 20px;
-  color:white;
-  font-size: 13px;
+.desarrollador{
+  color:rgb(10, 10, 10);
+  font-size: 15px;
+  margin-bottom: 50px;
 }
 
-.medio-desarrollador a{
-  color: rgb(85, 85, 255);
-  font-size: 13px;
-  border-bottom: solid 2px rgb(85, 85, 255);
+.desarrollador p a{
+  font-size: 15px;
 }
 
 .abajo{
@@ -405,7 +405,7 @@ footer{
 }
 
 .abajo div p{
-  color: white;
+  color: rgb(224, 222, 222);
   font-size: 15px;
   text-align: center;
 }
